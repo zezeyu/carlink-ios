@@ -9,13 +9,30 @@
 /* Begin PBXBuildFile section */
 		087B406184129AAD32FA8F83 /* Pods_cheanda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865F7E0BC6E29010F2E50691 /* Pods_cheanda.framework */; };
 		8E577B0607770A1B30913D32 /* Pods_cheandaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A55A0268675DD9308A9296 /* Pods_cheandaUITests.framework */; };
-		E1090989213BAD96008094BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1090988213BAD96008094BF /* AppDelegate.swift */; };
-		E109098B213BAD96008094BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109098A213BAD96008094BF /* ViewController.swift */; };
 		E109098E213BAD96008094BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E109098C213BAD96008094BF /* Main.storyboard */; };
 		E1090990213BAD97008094BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E109098F213BAD97008094BF /* Assets.xcassets */; };
 		E1090993213BAD97008094BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1090991213BAD97008094BF /* LaunchScreen.storyboard */; };
 		E109099E213BAD97008094BF /* cheandaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109099D213BAD97008094BF /* cheandaTests.swift */; };
 		E10909A9213BAD97008094BF /* cheandaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909A8213BAD97008094BF /* cheandaUITests.swift */; };
+		E10909BD213BB384008094BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909BB213BB384008094BF /* ViewController.swift */; };
+		E10909BE213BB384008094BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909BC213BB384008094BF /* AppDelegate.swift */; };
+		E10909C0213BB412008094BF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909BF213BB412008094BF /* Common.swift */; };
+		E10909C2213BB59C008094BF /* RequestUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909C1213BB59C008094BF /* RequestUrl.swift */; };
+		E10909CA213BB6BA008094BF /* CADURLNavigatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909C9213BB6BA008094BF /* CADURLNavigatorManager.swift */; };
+		E10909CE213BB83C008094BF /* CADBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909CD213BB83C008094BF /* CADBaseNavigationController.swift */; };
+		E10909D5213BB918008094BF /* CADNavBackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909D4213BB918008094BF /* CADNavBackable.swift */; };
+		E10909D7213BBC57008094BF /* CADNavTitleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909D6213BBC57008094BF /* CADNavTitleable.swift */; };
+		E10909D9213BBD17008094BF /* CADNavMessageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909D8213BBD17008094BF /* CADNavMessageable.swift */; };
+		E10909DB213BBEEE008094BF /* CADQRCodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909DA213BBEEE008094BF /* CADQRCodeable.swift */; };
+		E10909DD213BBF35008094BF /* CADNavUniversalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909DC213BBF35008094BF /* CADNavUniversalable.swift */; };
+		E10909DF213BC6FF008094BF /* RxAlamofire+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909DE213BC6FF008094BF /* RxAlamofire+ObjectMapper.swift */; };
+		E10909E1213BC760008094BF /* UINavigationBar+ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909E0213BC760008094BF /* UINavigationBar+ChangeColor.swift */; };
+		E10909E3213BC7AA008094BF /* CADCellStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909E2213BC7AA008094BF /* CADCellStyleable.swift */; };
+		E10909E5213BC8BD008094BF /* UIColor+HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909E4213BC8BD008094BF /* UIColor+HexColor.swift */; };
+		E10909E7213BC8FB008094BF /* CADViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909E6213BC8FB008094BF /* CADViewModelType.swift */; };
+		E10909E9213BC9D6008094BF /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909E8213BC9D6008094BF /* UIImage+Color.swift */; };
+		E10909EB213BCAE2008094BF /* CADBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909EA213BCAE2008094BF /* CADBaseViewController.swift */; };
+		E10909ED213BCBBA008094BF /* CADMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10909EC213BCBBA008094BF /* CADMainViewController.swift */; };
 		F4D6D81A07105DDF2DC17E7D /* Pods_cheandaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618C9CA591C834CD5EC77677 /* Pods_cheandaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +64,6 @@
 		DAAA28DAA524D930E6B42FC2 /* Pods-cheandaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cheandaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cheandaUITests/Pods-cheandaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC2B5EAFE034F8D4E9344DB4 /* Pods-cheanda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cheanda.release.xcconfig"; path = "Pods/Target Support Files/Pods-cheanda/Pods-cheanda.release.xcconfig"; sourceTree = "<group>"; };
 		E1090985213BAD96008094BF /* cheanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cheanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1090988213BAD96008094BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E109098A213BAD96008094BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E109098D213BAD96008094BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E109098F213BAD97008094BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1090992213BAD97008094BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +74,26 @@
 		E10909A4213BAD97008094BF /* cheandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cheandaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10909A8213BAD97008094BF /* cheandaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheandaUITests.swift; sourceTree = "<group>"; };
 		E10909AA213BAD97008094BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10909BA213BB383008094BF /* cheanda-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cheanda-Bridging-Header.h"; sourceTree = "<group>"; };
+		E10909BB213BB384008094BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E10909BC213BB384008094BF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E10909BF213BB412008094BF /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E10909C1213BB59C008094BF /* RequestUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestUrl.swift; sourceTree = "<group>"; };
+		E10909C9213BB6BA008094BF /* CADURLNavigatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADURLNavigatorManager.swift; sourceTree = "<group>"; };
+		E10909CD213BB83C008094BF /* CADBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADBaseNavigationController.swift; sourceTree = "<group>"; };
+		E10909D4213BB918008094BF /* CADNavBackable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADNavBackable.swift; sourceTree = "<group>"; };
+		E10909D6213BBC57008094BF /* CADNavTitleable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADNavTitleable.swift; sourceTree = "<group>"; };
+		E10909D8213BBD17008094BF /* CADNavMessageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADNavMessageable.swift; sourceTree = "<group>"; };
+		E10909DA213BBEEE008094BF /* CADQRCodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADQRCodeable.swift; sourceTree = "<group>"; };
+		E10909DC213BBF35008094BF /* CADNavUniversalable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADNavUniversalable.swift; sourceTree = "<group>"; };
+		E10909DE213BC6FF008094BF /* RxAlamofire+ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxAlamofire+ObjectMapper.swift"; sourceTree = "<group>"; };
+		E10909E0213BC760008094BF /* UINavigationBar+ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+ChangeColor.swift"; sourceTree = "<group>"; };
+		E10909E2213BC7AA008094BF /* CADCellStyleable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADCellStyleable.swift; sourceTree = "<group>"; };
+		E10909E4213BC8BD008094BF /* UIColor+HexColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
+		E10909E6213BC8FB008094BF /* CADViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADViewModelType.swift; sourceTree = "<group>"; };
+		E10909E8213BC9D6008094BF /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		E10909EA213BCAE2008094BF /* CADBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADBaseViewController.swift; sourceTree = "<group>"; };
+		E10909EC213BCBBA008094BF /* CADMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +162,7 @@
 		E1090987213BAD96008094BF /* cheanda */ = {
 			isa = PBXGroup;
 			children = (
-				E1090988213BAD96008094BF /* AppDelegate.swift */,
-				E109098A213BAD96008094BF /* ViewController.swift */,
-				E109098C213BAD96008094BF /* Main.storyboard */,
+				E10909B6213BB30E008094BF /* Classes */,
 				E109098F213BAD97008094BF /* Assets.xcassets */,
 				E1090991213BAD97008094BF /* LaunchScreen.storyboard */,
 				E1090994213BAD97008094BF /* Info.plist */,
@@ -153,6 +186,162 @@
 				E10909AA213BAD97008094BF /* Info.plist */,
 			);
 			path = cheandaUITests;
+			sourceTree = "<group>";
+		};
+		E10909B6213BB30E008094BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E10909B9213BB32B008094BF /* Common */,
+				E10909B8213BB32B008094BF /* Main */,
+				E10909B7213BB32B008094BF /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E10909B7213BB32B008094BF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E10909BC213BB384008094BF /* AppDelegate.swift */,
+				E10909BB213BB384008094BF /* ViewController.swift */,
+				E10909BA213BB383008094BF /* cheanda-Bridging-Header.h */,
+				E109098C213BAD96008094BF /* Main.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E10909B8213BB32B008094BF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E10909EC213BCBBA008094BF /* CADMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E10909B9213BB32B008094BF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E10909C8213BB615008094BF /* CustomUI */,
+				E10909C6213BB614008094BF /* Extension */,
+				E10909C7213BB614008094BF /* Manager */,
+				E10909C3213BB614008094BF /* Protocol */,
+				E10909C4213BB614008094BF /* Service */,
+				E10909C5213BB614008094BF /* Tools */,
+				E10909BF213BB412008094BF /* Common.swift */,
+				E10909C1213BB59C008094BF /* RequestUrl.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E10909C3213BB614008094BF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E10909CF213BB8F4008094BF /* CADCellStyleble */,
+				E10909D3213BB8F5008094BF /* MJRefresh */,
+				E10909D0213BB8F4008094BF /* UINavigationBar */,
+				E10909D1213BB8F4008094BF /* View */,
+				E10909D2213BB8F5008094BF /* ViewModel */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		E10909C4213BB614008094BF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E10909C5213BB614008094BF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E10909C6213BB614008094BF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E10909E4213BC8BD008094BF /* UIColor+HexColor.swift */,
+				E10909E8213BC9D6008094BF /* UIImage+Color.swift */,
+				E10909DE213BC6FF008094BF /* RxAlamofire+ObjectMapper.swift */,
+				E10909E0213BC760008094BF /* UINavigationBar+ChangeColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E10909C7213BB614008094BF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E10909C9213BB6BA008094BF /* CADURLNavigatorManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E10909C8213BB615008094BF /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				E10909CB213BB7F1008094BF /* CADBaseNavigationController */,
+				E10909CC213BB7F1008094BF /* CADBaseViewController */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		E10909CB213BB7F1008094BF /* CADBaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E10909CD213BB83C008094BF /* CADBaseNavigationController.swift */,
+			);
+			path = CADBaseNavigationController;
+			sourceTree = "<group>";
+		};
+		E10909CC213BB7F1008094BF /* CADBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E10909EA213BCAE2008094BF /* CADBaseViewController.swift */,
+			);
+			path = CADBaseViewController;
+			sourceTree = "<group>";
+		};
+		E10909CF213BB8F4008094BF /* CADCellStyleble */ = {
+			isa = PBXGroup;
+			children = (
+				E10909E2213BC7AA008094BF /* CADCellStyleable.swift */,
+			);
+			path = CADCellStyleble;
+			sourceTree = "<group>";
+		};
+		E10909D0213BB8F4008094BF /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				E10909D4213BB918008094BF /* CADNavBackable.swift */,
+				E10909D6213BBC57008094BF /* CADNavTitleable.swift */,
+				E10909D8213BBD17008094BF /* CADNavMessageable.swift */,
+				E10909DA213BBEEE008094BF /* CADQRCodeable.swift */,
+				E10909DC213BBF35008094BF /* CADNavUniversalable.swift */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		E10909D1213BB8F4008094BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E10909D2213BB8F5008094BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E10909E6213BC8FB008094BF /* CADViewModelType.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E10909D3213BB8F5008094BF /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MJRefresh;
 			sourceTree = "<group>";
 		};
 		FB76EE03B06BE8ED9492F096 /* Frameworks */ = {
@@ -231,12 +420,14 @@
 		E109097D213BAD96008094BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CAD;
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "何泽的mac";
 				TargetAttributes = {
 					E1090984213BAD96008094BF = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					E1090998213BAD97008094BF = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -421,8 +612,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E109098B213BAD96008094BF /* ViewController.swift in Sources */,
-				E1090989213BAD96008094BF /* AppDelegate.swift in Sources */,
+				E10909CA213BB6BA008094BF /* CADURLNavigatorManager.swift in Sources */,
+				E10909D9213BBD17008094BF /* CADNavMessageable.swift in Sources */,
+				E10909EB213BCAE2008094BF /* CADBaseViewController.swift in Sources */,
+				E10909DB213BBEEE008094BF /* CADQRCodeable.swift in Sources */,
+				E10909BE213BB384008094BF /* AppDelegate.swift in Sources */,
+				E10909C0213BB412008094BF /* Common.swift in Sources */,
+				E10909D7213BBC57008094BF /* CADNavTitleable.swift in Sources */,
+				E10909DF213BC6FF008094BF /* RxAlamofire+ObjectMapper.swift in Sources */,
+				E10909E7213BC8FB008094BF /* CADViewModelType.swift in Sources */,
+				E10909D5213BB918008094BF /* CADNavBackable.swift in Sources */,
+				E10909CE213BB83C008094BF /* CADBaseNavigationController.swift in Sources */,
+				E10909E1213BC760008094BF /* UINavigationBar+ChangeColor.swift in Sources */,
+				E10909BD213BB384008094BF /* ViewController.swift in Sources */,
+				E10909DD213BBF35008094BF /* CADNavUniversalable.swift in Sources */,
+				E10909ED213BCBBA008094BF /* CADMainViewController.swift in Sources */,
+				E10909E3213BC7AA008094BF /* CADCellStyleable.swift in Sources */,
+				E10909E5213BC8BD008094BF /* UIColor+HexColor.swift in Sources */,
+				E10909C2213BB59C008094BF /* RequestUrl.swift in Sources */,
+				E10909E9213BC9D6008094BF /* UIImage+Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +804,8 @@
 			baseConfigurationReference = 11CE74B4F4A1A25FBA46FCDA /* Pods-cheanda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = cheanda/Info.plist;
@@ -606,6 +816,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cheanda/Classes/Other/cheanda-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -616,6 +828,8 @@
 			baseConfigurationReference = DC2B5EAFE034F8D4E9344DB4 /* Pods-cheanda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = cheanda/Info.plist;
@@ -626,6 +840,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cheanda/Classes/Other/cheanda-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
