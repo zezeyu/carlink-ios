@@ -14,7 +14,7 @@ import ObjectMapper
 import SwiftyJSON
 
 extension ObservableType where E == Any {
-    public func hc_json(_ json : @escaping ((E) -> JSON)) -> Observable<Any> {
+    public func cad_json(_ json : @escaping ((E) -> JSON)) -> Observable<Any> {
         return flatMap { (result) -> Observable<Any> in
             return Observable.just(json(result).object)
         }
