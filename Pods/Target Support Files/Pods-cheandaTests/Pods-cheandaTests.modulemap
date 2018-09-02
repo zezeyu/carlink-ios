@@ -1,0 +1,6 @@
+framework module Pods_cheandaTests {
+  umbrella header "Pods-cheandaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

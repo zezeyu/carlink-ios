@@ -1,0 +1,6 @@
+framework module Pods_cheandaUITests {
+  umbrella header "Pods-cheandaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
